@@ -6,4 +6,6 @@ public interface StudentService {
 	
 	public Student saveStudent(Student student);
 
+	public Student fetchStudentById(int id);
+	
 }
